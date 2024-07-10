@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block title %} 
+    Posts
+{% endblock %}
+
+{% block content %}
+<h1>Create a new post!</h1>
+
+<form method="POST">
+    <p>
+        <h1>Title:</h1>
+        <input name="title">
+        <h1>Content:</h1>
+        <input name="content">
+    </p>
+    <p>
+        <input type="submit" name="post" value="Submit your post">
+    </p>
+    <p>
+        <input type="submit" name="delete" value="Delete all posts">
+    </p>
+</form>
+{% endblock %}
