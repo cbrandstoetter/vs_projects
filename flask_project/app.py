@@ -59,25 +59,3 @@ def delete():
     post_id = request.form['post_id']
     delete_post(post_id)
     return data()
-
-
-"""
-DONE
-
-Since youll need to get a blog post by its ID from the database in multiple locations later in this project, 
-youll create a standalone function called get_post(). You can call it by passing it an ID and receive back 
-the blog post associated with the provided ID, or make Flask respond with a 404 Not Found message if the blog post does not exist.
-use "abort()" from flask/Werkzeug library"
-
-"""
-
-
-"""
-new post : DONE
-edit and delete post: 
-
-Now that youve finished displaying the blog posts that are present in the database on the web application, 
-you need to allow the users of your application to write new blog posts and add them to the database, 
-edit the existing ones, and delete unnecessary blog posts.
-
-"""
