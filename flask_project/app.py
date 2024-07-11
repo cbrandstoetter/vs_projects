@@ -36,6 +36,11 @@ def posts():
     return render_template('posts.html')
 
 @app.route('/posts', methods=['POST'])
+# check which form was pressed
+# request.form check for "post" or "delete"
+# improvements: 
+# check for valid input in form and return error if too long, false formatting etc.
+# ask again when delete is pressed to be sure
 def post_posts():
     if 'post' in request.form:
         try:
