@@ -1,0 +1,1 @@
+counter with increase, decrase and reset

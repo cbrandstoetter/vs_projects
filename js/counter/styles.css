@@ -1,0 +1,40 @@
+body {
+    font-family: "Monospace", "Lucida Console";
+}
+
+#page-header{
+    font: inherit;
+    font-size: 60px;
+    font-weight: 900;
+}
+
+#counter-container{
+    font: inherit;
+    font-size: 90px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: green;
+}
+
+.interaction-button {
+    font: inherit;
+    font-size: 30px;
+    border-radius: 10px;
+    border: 4px, black, solid;
+    letter-spacing: 5px;
+    padding: 10px;
+    padding-inline: 50px;
+    margin-inline: 20px;
+}
+
+.center{
+    text-align: center;
+}
+
+.interaction-button:hover{
+    background-color:aqua;
+}
+
+.interaction-button:active{
+    box-shadow: 2px 2px 5px grey;
+}
