@@ -9,6 +9,8 @@ venv/
 env/
 .env/
 envs/
+myenv/
+.myenv/
 
 # Compiled bytecode files
 __pycache__/
